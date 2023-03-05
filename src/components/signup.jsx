@@ -75,7 +75,7 @@ const SignUp = () => {
           password,
         };
         const res = await axios.post(
-          "http://localhost:5000/api/user/",
+          "https://chhulegaganserver.onrender.com/api/user/",
           userdata,
           {
             headers: {

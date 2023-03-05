@@ -65,7 +65,7 @@ function Navbar() {
           fontSize={{ base: "15px", lg: "20px" }}
         >
           <HStack spacing={{ md: "7", lg: "10" }} px={{ md: "7", lg: "10" }}>
-            <NavLink to="/home" className="hover">
+            <NavLink to="/" className="hover">
               Home
             </NavLink>
             <NavLink to="/about" className="hover">

@@ -57,7 +57,7 @@ const Login = () => {
       e.preventDefault();
       const userdata = { email, password };
       const res = await axios.post(
-        "http://localhost:5000/api/user/login",
+        "https://chhulegaganserver.onrender.com/api/user/login",
         userdata,
         {
           headers: {
@@ -104,7 +104,7 @@ const Login = () => {
         const userdata = { email };
 
         const res = await axios.post(
-          "http://localhost:5000/api/user/sendotp",
+          "https://chhulegaganserver.onrender.com/api/user/sendotp",
           userdata,
           {
             headers: {
@@ -205,7 +205,7 @@ const Login = () => {
       } else {
         const userdata = { email, password: Repassword };
         const res = await axios.post(
-          "http://localhost:5000/api/user/changepassword",
+          "https://chhulegaganserver.onrender.com/api/user/changepassword",
           userdata,
           {
             headers: {
