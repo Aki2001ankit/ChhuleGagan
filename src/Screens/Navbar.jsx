@@ -79,14 +79,20 @@ function Navbar() {
             </NavLink>
 
             {user === undefined || user === null ? (
-              <Button
+              <>
+              {/* <Button
                 colorScheme="red"
                 variant="outline"
                 as="a"
                 href="/login"
               >
                 Login
-              </Button>
+              </Button> */}
+              
+              <NavLink to="/login" className="hover">
+              login
+            </NavLink>
+            </>
             ) : (
               <>
                 <NavLink to="/dashboard" className="hover">
