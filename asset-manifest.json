@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ChhuleGagan/static/css/main.de6c0b30.css",
-    "main.js": "/ChhuleGagan/static/js/main.9e348d67.js",
+    "main.js": "/ChhuleGagan/static/js/main.e0ed4bf9.js",
     "static/media/home2.png": "/ChhuleGagan/static/media/home2.31c536495c2772a9de18.png",
     "static/media/founder.jpg": "/ChhuleGagan/static/media/founder.d9263ef0b6abe5f84e0b.jpg",
     "static/media/bootstrap-icons.woff?": "/ChhuleGagan/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
@@ -19,10 +19,10 @@
     "static/media/logo.svg": "/ChhuleGagan/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ChhuleGagan/index.html",
     "main.de6c0b30.css.map": "/ChhuleGagan/static/css/main.de6c0b30.css.map",
-    "main.9e348d67.js.map": "/ChhuleGagan/static/js/main.9e348d67.js.map"
+    "main.e0ed4bf9.js.map": "/ChhuleGagan/static/js/main.e0ed4bf9.js.map"
   },
   "entrypoints": [
     "static/css/main.de6c0b30.css",
-    "static/js/main.9e348d67.js"
+    "static/js/main.e0ed4bf9.js"
   ]
 }
