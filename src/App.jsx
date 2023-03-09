@@ -26,6 +26,7 @@ function App() {
           <Route path='/login' exact element={<Register/>}></Route>
           <Route path='/dashboard' exact element={<DashBoard/>}></Route>
         </Routes>
+        <Footer/>
       
      
     </div>

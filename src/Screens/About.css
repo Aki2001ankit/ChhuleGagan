@@ -1,9 +1,59 @@
-.card-my:hover{
+.card-my:hover {
     transform: scale(1.03);
-  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
-.card-my{
+
+.card-my {
     box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
-  transition: all ease 200ms;
-  cursor: pointer;
+    transition: all ease 200ms;
+    cursor: pointer;
+}
+
+.background {
+    background: linear-gradient( #ff0000 50%, white 50%);
+}
+
+.card {
+    position: relative;
+    margin: 0 !important;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 350px;
+    cursor: pointer;
+    border: none;
+}
+
+.card .card-image {
+    width: 100%;
+    min-height: 350px;
+}
+
+.card .card-image img {
+    width: 100%;
+    min-height: 350px;
+    object-fit: cover;
+}
+
+.card .card-content {
+    position: absolute;
+    bottom: -50px;
+    color: #fff;
+    background: rgb(239, 107, 107, 0.99);
+    backdrop-filter: blur(15px);
+    min-height: 150px;
+    width: 100%;
+    transition: bottom .4s ease-in;
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card:hover .card-content {
+    bottom: 0px;
+}
+
+.card:hover .card-content h4,
+.card:hover .card-content h5 {
+    transform: translateY(10px);
+    opacity: 1;
 }

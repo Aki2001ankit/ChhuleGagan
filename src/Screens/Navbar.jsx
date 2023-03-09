@@ -40,6 +40,7 @@ function Navbar() {
         px={5}
         height="75px"
         zIndex={50}
+        mb={0}
       >
         {/* logo */}
 
