@@ -53,7 +53,7 @@ const ImgCard = ({ props }) => {
           <button className="btn btn-secondary">
             <NavLink to={props.url}>
               {" "}
-              View Course details &nbsp;
+              {props?.bottonText} &nbsp;
               <i class="bi bi-arrow-right-circle"></i>
             </NavLink>
           </button>
