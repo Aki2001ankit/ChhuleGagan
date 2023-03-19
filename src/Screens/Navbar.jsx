@@ -99,7 +99,7 @@ function Navbar() {
                 <NavLink to="/dashboard" className="hover">
                   Dashboard
                 </NavLink>
-                <NavLink to="" onClick={HandleLogout}>
+                <NavLink to="/login" onClick={HandleLogout}>
                   logout
                 </NavLink>
               </>
@@ -200,7 +200,7 @@ function Navbar() {
                       colorScheme="red"
                       variant="outline"
                       as="a"
-                      href="/register"
+                      href="/login"
                       w="50%"
                       m="auto"
                     >
